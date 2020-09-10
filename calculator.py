@@ -3,9 +3,12 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-x = int(input())
+print('Введите первое число:')
+x = float(input())
+print('Введите один из знаков: +, -, * или /')
 sign = input()
-y = int(input())
+print('Введите второе число:')
+y = float(input())
 if sign == '+':
     print(x + y)
 else:
@@ -18,4 +21,4 @@ else:
             if sign == '/' and y != 0:
                 print(x/y)
             else:
-                print('Please, check your input data. You do something wrong.')
+                print('Проверьте свои данные, что-то не так.')
